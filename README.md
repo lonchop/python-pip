@@ -1,10 +1,9 @@
 # App Project
 
-1. Clonar repositorio
+1. Clonar repositorio e ingresar con al archivo
 
 ```sh
-git clone https://github.com/lonchop/python-pip.git
-cd python-pip/app
+git clone https://github.com/lonchop/python-pip.git && cd python-pip/app
 ```
 
 2. Crear ambiente virtual e ingresar para ejecutar el programa
