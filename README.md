@@ -4,10 +4,10 @@
 
 ```sh
 git clone https://github.com/lonchop/python-pip.git
-cd app
+cd python-pip/app
 ```
 
-2. Crear ambiente virtual para ejecutar el programa
+2. Crear ambiente virtual e ingresar para ejecutar el programa
 
 En Windows:
 
