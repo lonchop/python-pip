@@ -1,6 +1,6 @@
 # App Project
 
-1. Clonar repositorio e ingresar con al archivo
+1. Clonar repositorio e ingresar al archivo
 
 ```sh
 git clone https://github.com/lonchop/python-pip.git && cd python-pip/app
