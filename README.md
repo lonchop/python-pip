@@ -11,7 +11,8 @@ python3 main.py
 ```sh
 git clone
 cd app
-source env/bin/active
+python -m venv env
+source env/bin/active # en windows seria 'env\Scripts\activate'
 pip3 install -r requirements.txt
 python3 main.py
 ```
