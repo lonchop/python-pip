@@ -1,12 +1,12 @@
 # App Project
 
-1. Clonar repositorio e ingresar al archivo
+1. Clonar repositorio e ingresar al directorio
 
 ```sh
 git clone https://github.com/lonchop/python-pip.git && cd python-pip/app
 ```
 
-2. Crear ambiente virtual e ingresar para ejecutar el programa
+2. Crear e ingresar al ambiente virtual
 
 En Windows:
 
@@ -34,7 +34,7 @@ En Linux y MacOs:
 pip3 install -r requirements.txt
 ```
 
-4. Ejecutar el main.py en tu directorio
+4. Ejecutar el programa
 
 En Windows:
 
