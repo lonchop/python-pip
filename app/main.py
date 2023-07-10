@@ -2,6 +2,7 @@ import utils
 from read_csv import read_csv
 import charts
 import matplotlib.pyplot as plt
+import pandas as pd
 
 
 def run():
@@ -12,7 +13,15 @@ def run():
 
     # countries = list(map(lambda x: x['Country'], data))
     # percentages = list(map(lambda x: x['World Population Percentage'], data))
-    # charts.generate_pie_chart(countries, percentages)
+
+    df = pd.read_csv('data.csv')
+    df = df[df['Continent'] == 'North America']
+    
+
+    countries = df['Country'].values
+    percentages = df['World Population Percentage'].values
+
+    charts.generate_pie_chart(countries, percentages, "North America")
 
     country = input('Type Country => ')
 
