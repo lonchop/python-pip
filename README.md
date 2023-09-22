@@ -21,7 +21,7 @@ py -m venv env && env\Scripts\activate
 Linux y MacOs:
 
 ```sh
-python3 -m venv env && source env/bin/active
+python3 -m venv env && source env/bin/activate
 ```
 
 3. Install the required libraries from requirements.txt
